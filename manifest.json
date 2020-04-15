@@ -1,0 +1,13 @@
+{
+  "name": "Spotify CSP clear",
+  "version": "0.1",
+  "description": "Clear Spotify's CSP headers.",
+  "manifest_version": 2,
+  "permissions": ["webRequest", "webRequestBlocking", "https://open.spotify.com/*"],
+  "icons": { 
+    "128": "icon128.png" 
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
